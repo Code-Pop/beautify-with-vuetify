@@ -1,6 +1,16 @@
-# vuetify-dashboard
+# Beautify with Vuetify
 
-## Project setup
+Learn how to create beautiful web apps with Vuetify, a component framework that is built according to [Google's Material Design](https://material.io/design/) specifications.
+
+## Course Milestones
+
+We encourage you to code along with us as you go through the course on Vue Mastery. These are the tags that represent milestones throughout the course. In addition, code commits are created in a way that should allow you to choose snapshots in case there's any confusion.
+
+| Lesson | Start Code | Finished Code |
+| ------ | ---------- | ------------- |
+| Getting Started with Vuetify | [Lesson 1 Start](https://github.com/Code-Pop/beautify-with-vuetify/releases/tag/lesson-1-START) | [Lesson 1 Finish](https://github.com/Code-Pop/beautify-with-vuetify/releases/tag/lesson-1-FINISH) |
+
+## Setup
 ```
 yarn install
 ```
