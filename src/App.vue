@@ -11,10 +11,11 @@
             prepend-icon="account_circle"
           />
           <v-text-field 
-            type="password" 
+            :type="showPassword ? 'text' : 'password'" 
             label="Password"
             prepend-icon="lock"
-            append-icon="visibility_off"
+            :append-icon="showPassword ? 'visibility' : 'visibility_off'"
+            @click:append="showPassword = !showPassword"
           />
         </v-form>
       </v-card-text>
@@ -33,7 +34,7 @@ export default {
   name: 'App',
   data () {
     return {
-      //
+      showPassword: false
     }
   }
 }
