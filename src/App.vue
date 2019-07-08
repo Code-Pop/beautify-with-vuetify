@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-card width="400" class="mx-auto mt-5">
-      <v-card-title class="pb0">
+      <v-card-title class="pb-0">
         <h1>Login</h1>
       </v-card-title>
       <v-card-text>
