@@ -1,21 +1,28 @@
 <template>
   <v-app>
-    <v-card>
-      <v-card-title>
+    <v-card width="400" class="mx-auto mt-5">
+      <v-card-title class="pb0">
         <h1>Login</h1>
       </v-card-title>
       <v-card-text>
         <v-form>
-          <v-text-field label="Username" />
+          <v-text-field 
+            label="Username" 
+            prepend-icon="account_circle"
+          />
           <v-text-field 
             type="password" 
             label="Password"
+            prepend-icon="lock"
+            append-icon="visibility_off"
           />
         </v-form>
       </v-card-text>
+      <v-divider></v-divider>
       <v-card-actions>
-        <v-btn>Register</v-btn>
-        <v-btn>Login</v-btn>
+        <v-btn color="success">Register</v-btn>
+        <v-spacer></v-spacer>
+        <v-btn color="info">Login</v-btn>
       </v-card-actions>
     </v-card>
   </v-app>
