@@ -48,7 +48,7 @@
 					{{ link }}
 				</v-btn>
 				<v-flex primary lighten-2 py-4 text-center white--text xs12>
-					{{ new Date().getFullYear() }} — <strong>Vuetify</strong>
+					{{ new Date().getFullYear() }} — <strong>Vuetify Dashboard</strong>
 				</v-flex>
 			</v-layout>
 		</v-footer>
