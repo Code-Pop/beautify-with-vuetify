@@ -60,7 +60,11 @@ export default {
   name: 'App',
   data () {
     return {
-      showPassword: false
+      showPassword: false,
+      links: [
+        'Home',
+        'Login'
+      ]
     }
   }
 }
