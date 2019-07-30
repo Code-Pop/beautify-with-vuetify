@@ -9,6 +9,7 @@ We encourage you to code along with us as you go through the course on Vue Maste
 | Lesson | Start Code | Finished Code |
 | ------ | ---------- | ------------- |
 | Getting Started with Vuetify | [Lesson 1 Start](https://github.com/Code-Pop/beautify-with-vuetify/releases/tag/lesson-1-START) | [Lesson 1 Finish](https://github.com/Code-Pop/beautify-with-vuetify/releases/tag/lesson-1-FINISH) |
+| Components (Pt. 1) | [Lesson 2 Begin](https://github.com/Code-Pop/beautify-with-vuetify/tree/Lesson-2-BEGIN) | [Lesson 2 Finish](https://github.com/Code-Pop/beautify-with-vuetify/tree/Lesson-2-FINISH) |
 
 ## Setup
 ```
