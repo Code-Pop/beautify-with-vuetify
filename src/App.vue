@@ -2,6 +2,7 @@
   <v-app>
     <v-app-bar>
       <v-toolbar-title>Vuetify Dashboard</v-toolbar-title>
+      <v-spacer></v-spacer>
       <v-btn>Home</v-btn>
       <v-btn>Login</v-btn>
     </v-app-bar>
