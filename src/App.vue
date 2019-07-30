@@ -1,5 +1,11 @@
 <template>
   <v-app>
+    <v-app-bar>
+      <v-toolbar-title>Vuetify Dashboard</v-toolbar-title>
+      <v-btn>Home</v-btn>
+      <v-btn>Login</v-btn>
+    </v-app-bar>
+    <!-- Login Module -->
     <v-card width="400" class="mx-auto mt-5">
       <v-card-title class="pb-0">
         <h1 class="display-1">Login</h1>
