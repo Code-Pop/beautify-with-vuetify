@@ -7,6 +7,7 @@
       :items-per-page="5"
       class="elevation-1"
       @click:row="selectRow"
+      multi-sort="true"
     ></v-data-table>
     <v-snackbar
       v-model="snackbar"
