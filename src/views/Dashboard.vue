@@ -12,7 +12,7 @@
     <v-snackbar
       v-model="snackbar"
     >
-      You have selected {{ currentItem }}
+      You have selected {{ selectedEmployee.name }}, {{ selectedEmployee.title }}
       <v-btn
         color="pink"
         text
@@ -31,7 +31,10 @@ export default {
   name: 'DashboardPage',
   data () {
     return {
-      currentItem: '',
+      selectedEmployee: {
+        name: '',
+        title: ''
+      },
       snackbar: false,
       headers: [
         { text: 'Employee ID', value: 'id' },
@@ -45,7 +48,8 @@ export default {
   methods: {
     selectRow(event) {
       this.snackbar = true
-      this.currentItem = event.name
+      this.selectedEmployee.name = event.name
+      this.selectedEmployee.title = event.title
     }
   }
 }
