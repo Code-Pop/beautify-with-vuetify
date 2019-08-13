@@ -7,6 +7,18 @@
       :items-per-page="5"
       class="elevation-1"
     ></v-data-table>
+    <v-snackbar
+      v-model="snackbar"
+    >
+      {{ text }}
+      <v-btn
+        color="pink"
+        text
+        @click="snackbar = false"
+      >
+        Close
+      </v-btn>
+    </v-snackbar>
   </div>
 </template>
 
@@ -15,6 +27,7 @@
     name: 'DashboardPage',
     data () {
       return {
+        snackbar: false,
         headers: [
           {
             text: 'Dessert (100g serving)',
