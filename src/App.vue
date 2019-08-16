@@ -9,7 +9,7 @@
 		<v-content>
 			<!-- Login Module -->
 			<v-card width="400" class="mx-auto mt-5">
-				<v-card-title class="pb-0">
+				<v-card-title>
 					<h1 class="display-1">Login</h1>
 				</v-card-title>
 				<v-card-text>
