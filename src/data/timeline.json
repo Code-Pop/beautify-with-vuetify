@@ -1,0 +1,26 @@
+[
+  {
+    "color": "red lighten-2",
+    "icon": "mdi-star",
+    "title": "Promoted to Assistant Regional Manager",
+    "text": "Congratulations to Dwayne on your promotion! Sensei is proud!"
+  },
+  {
+    "color": "purple darken-1",
+    "icon": "mdi-ring",
+    "title": "PB & J Finally Together!",
+    "text": "Max Scarn here with a personal congratulations to the happy couple!"
+  },
+  {
+    "color": "green lighten-1",
+    "icon": "mdi-balloon",
+    "title": "Welcome Back to the Temp!",
+    "text": "Sorry about what happened at corporate, but I am glad you are back! - Max"
+  },
+  {
+    "color": "indigo",
+    "icon": "mdi-gift",
+    "title": "Reminder: Secret Santa Rules",
+    "text": "The maximum spending amount is $20. No iPods allowed."
+  }
+]
