@@ -1,7 +1,7 @@
 <template>
   <v-data-table
     :headers="headers"
-    :items="employeesList"
+    :items="employees"
     :items-per-page="5"
     class="elevation-1"
     @click:row="selectRow"
@@ -13,7 +13,7 @@
 export default {
   name: 'EmployeesTable',
   props: {
-    employeesList: {
+    employees: {
       type: Array,
       required: true
     }
