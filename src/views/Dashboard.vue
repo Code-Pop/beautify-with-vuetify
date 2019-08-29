@@ -8,11 +8,11 @@
       </v-col>
     </v-row>
 
-    <StatisticCard
-      v-for="statistic in statistics"
-      :key="`${statistic.title}`"
-      :statistic="statistic"
-    />
+    <v-row>
+      <v-col v-for="statistic in statistics" :key="`${statistic.title}`">
+        <StatisticCard :statistic="statistic" />
+      </v-col>
+    </v-row>
 
     <EmployeesTable :employees="employees" @select-employee="setEmployee" />
 
