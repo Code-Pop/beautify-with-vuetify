@@ -12,6 +12,7 @@ We encourage you to code along with us as you go through the course on Vue Maste
 | Components (Pt. 1)                  | [Lesson 2 Begin](https://github.com/Code-Pop/beautify-with-vuetify/tree/Lesson-2-BEGIN)   | [Lesson 2 Finish](https://github.com/Code-Pop/beautify-with-vuetify/tree/Lesson-2-FINISH)   |
 | Components (Pt. 2)                  | [Lesson 3 Begin](https://github.com/Code-Pop/beautify-with-vuetify/tree/Lesson-3-BEGIN)   | [Lesson 3 Finish](https://github.com/Code-Pop/beautify-with-vuetify/tree/Lesson-3-FINISH)   |
 | Components (Pt. 2) - Code Challenge | [Lesson 3 Begin](https://github.com/Code-Pop/beautify-with-vuetify/tree/Lesson-3CC-BEGIN) | [Lesson 3 Finish](https://github.com/Code-Pop/beautify-with-vuetify/tree/Lesson-3CC-FINISH) |
+| Layouts: Grid System                | [Lesson 4 Begin](https://github.com/Code-Pop/beautify-with-vuetify/tree/Lesson-4-BEGIN)   | [Lesson 4 Finish](https://github.com/Code-Pop/beautify-with-vuetify/tree/Lesson-4-FINISH)   |
 
 ## Setup
 
