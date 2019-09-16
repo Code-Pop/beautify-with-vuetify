@@ -13,16 +13,17 @@
         v-for="statistic in statistics"
         :key="`${statistic.title}`"
         cols="12"
+        md="6"
       >
         <StatisticCard :statistic="statistic" />
       </v-col>
     </v-row>
 
     <v-row>
-      <v-col cols="12">
+      <v-col cols="12" md="8">
         <EmployeesTable :employees="employees" @select-employee="setEmployee" />
       </v-col>
-      <v-col cols="12">
+      <v-col cols="12" md="4">
         <EventTimeline :timeline="timeline" />
       </v-col>
     </v-row>
