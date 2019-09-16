@@ -9,16 +9,20 @@
     </v-row>
 
     <v-row>
-      <v-col v-for="statistic in statistics" :key="`${statistic.title}`">
+      <v-col
+        v-for="statistic in statistics"
+        :key="`${statistic.title}`"
+        cols="12"
+      >
         <StatisticCard :statistic="statistic" />
       </v-col>
     </v-row>
 
     <v-row>
-      <v-col cols="8">
+      <v-col cols="12">
         <EmployeesTable :employees="employees" @select-employee="setEmployee" />
       </v-col>
-      <v-col cols="4">
+      <v-col cols="12">
         <EventTimeline :timeline="timeline" />
       </v-col>
     </v-row>
