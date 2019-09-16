@@ -14,6 +14,7 @@
         :key="`${statistic.title}`"
         cols="12"
         md="6"
+        lg="3"
       >
         <StatisticCard :statistic="statistic" />
       </v-col>
