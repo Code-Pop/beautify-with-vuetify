@@ -9,6 +9,7 @@
             label="Which browser do you use?"
             :items="browsers"
           ></v-autocomplete>
+          <v-file-input label="Attach profile picture"></v-file-input>
         </v-form>
       </v-col>
     </v-row>
