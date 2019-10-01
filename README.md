@@ -15,6 +15,7 @@ We encourage you to code along with us as you go through the course on Vue Maste
 | Layouts: Grid System                | [Lesson 4 Begin](https://github.com/Code-Pop/beautify-with-vuetify/tree/Lesson-4-BEGIN)     | [Lesson 4 Finish](https://github.com/Code-Pop/beautify-with-vuetify/tree/Lesson-4-FINISH)     |
 | Layouts: Responsive Design          | [Lesson 5 Begin](https://github.com/Code-Pop/beautify-with-vuetify/tree/Lesson-5-BEGIN)     | [Lesson 5 Finish](https://github.com/Code-Pop/beautify-with-vuetify/tree/Lesson-5-FINISH)     |
 | Layouts: Responsive Design          | [Lesson 5CC Begin](https://github.com/Code-Pop/beautify-with-vuetify/tree/Lesson-5CC-BEGIN) | [Lesson 5CC Finish](https://github.com/Code-Pop/beautify-with-vuetify/tree/Lesson-5CC-FINISH) |
+| Forms: Fundamentals                 | [Lesson 6 Begin](https://github.com/Code-Pop/beautify-with-vuetify/tree/Lesson-6-BEGIN)     | [Lesson 6 Finish](https://github.com/Code-Pop/beautify-with-vuetify/tree/Lesson-6-FINISH)     |
 
 ## Setup
 
