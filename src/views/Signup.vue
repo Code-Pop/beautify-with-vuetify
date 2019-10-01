@@ -5,8 +5,20 @@
         <h1>Signup</h1>
         <v-form>
           <v-text-field label="Email" type="email"></v-text-field>
+          <v-autocomplete
+            label="Which browser do you use?"
+            :items="browsers"
+          ></v-autocomplete>
         </v-form>
       </v-col>
     </v-row>
   </v-container>
 </template>
+
+<script>
+export default {
+  data: () => ({
+    browsers: ['Chrome', 'Firefox', 'Safari', 'Edge', 'Brave']
+  })
+}
+</script>
