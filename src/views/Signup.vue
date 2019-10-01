@@ -16,6 +16,8 @@
             readonly
           ></v-text-field>
           <v-date-picker v-model="birthday"></v-date-picker>
+          <v-checkbox label="Agree to terms & conditions"></v-checkbox>
+          <v-btn type="submit" color="primary">Submit</v-btn>
         </v-form>
       </v-col>
     </v-row>
