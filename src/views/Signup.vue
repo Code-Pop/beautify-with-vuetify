@@ -3,7 +3,7 @@
     <v-row>
       <v-col>
         <h1>Signup</h1>
-        <v-form>
+        <v-form ref="signUpForm">
           <v-text-field
             label="Email"
             type="email"
@@ -26,7 +26,11 @@
             v-model="agreeToTerms"
             :rules="agreeToTermsRules"
           ></v-checkbox>
-          <v-btn type="submit" color="primary">Submit</v-btn>
+          <v-btn type="submit" color="primary" class="mr-4">Submit</v-btn>
+          <v-btn color="warning" class="mr-4" @click="resetValidation"
+            >Reset Validation</v-btn
+          >
+          <v-btn color="error" @click="resetForm">Reset</v-btn>
         </v-form>
       </v-col>
     </v-row>
@@ -56,6 +60,14 @@ export default {
         value.indexOf('.') <= value.length - 3 ||
         'Email should contain a valid domain extension.'
     ]
-  })
+  }),
+  methods: {
+    resetForm() {
+      this.$refs.signUpForm.reset()
+    },
+    resetValidation() {
+      this.$refs.signUpForm.resetValidation()
+    }
+  }
 }
 </script>
