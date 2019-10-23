@@ -9,6 +9,7 @@
             type="email"
             v-model="email"
             :rules="emailRules"
+            required
           ></v-text-field>
           <v-autocomplete
             label="Which browser do you use?"
@@ -56,6 +57,7 @@ export default {
     browsers: ['Chrome', 'Firefox', 'Safari', 'Edge', 'Brave'],
     email: '',
     emailRules: [
+      value => !!value || 'Email is required.',
       value => value.indexOf('@') !== 0 || 'Email should have a username.',
       value => value.includes('@') || 'Email should include an @ symbol.',
       value =>
