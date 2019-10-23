@@ -34,6 +34,9 @@
             :disabled="!formValidity"
             >Submit</v-btn
           >
+          <v-btn color="success" class="mr-4" @click="validateForm"
+            >Validate Form</v-btn
+          >
           <v-btn color="warning" class="mr-4" @click="resetValidation"
             >Reset Validation</v-btn
           >
@@ -76,6 +79,9 @@ export default {
     },
     resetValidation() {
       this.$refs.signUpForm.resetValidation()
+    },
+    validateForm() {
+      this.$refs.signUpForm.validate()
     }
   }
 }
