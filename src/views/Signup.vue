@@ -26,6 +26,7 @@
             label="Agree to terms & conditions"
             v-model="agreeToTerms"
             :rules="agreeToTermsRules"
+            required
           ></v-checkbox>
           <v-btn
             type="submit"
