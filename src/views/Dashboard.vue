@@ -38,7 +38,7 @@
       </v-col>
     </v-row>
 
-    <v-row id="more-content">
+    <v-row v-if="loadNewContent" id="more-content">
       <v-col>
         <v-skeleton-loader
           ref="skeleton"
@@ -80,6 +80,7 @@ export default {
   data() {
     return {
       employees: employeesData,
+      loadNewContent: false,
       sales: salesData,
       selectedEmployee: {
         name: '',
