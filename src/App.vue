@@ -67,6 +67,7 @@ export default {
   },
   methods: {
     toggleTheme() {
+      this.$vuetify.theme.themes.dark.anchor = '#41B883'
       this.$vuetify.theme.dark = !this.$vuetify.theme.dark
     }
   }
