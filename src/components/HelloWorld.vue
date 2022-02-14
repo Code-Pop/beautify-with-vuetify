@@ -79,19 +79,19 @@ export default {
 	data: () => ({
 		ecosystem: [
 			{
-				text: 'Phone 0938 239 388',
-				href: ''
+				text: ' 0938 239 388',
+				href: '+84938239388'
 			},
 			{
 				text: 'Email: hotro@dautu101.com',
-				href: 'https://github.com/vuetifyjs/vuetify'
+				href: 'hotro@dautu101.com'
 			}
 			
 		],
 		importantLinks: [
 			{
 				text: 'Telegram cho người mới',
-				href: 'https://dautu101.com'
+				href: 'https://t.me/addautu101'
 			},
 			{
 				text: 'Telegram cho Nhà đầu tư',
@@ -99,7 +99,7 @@ export default {
 			},
 			{
 				text: 'WhatsApp Business',
-				href: '+84938239388'
+				href: 'https://wa.me/message/QLTBJG5O3HHLE1'
 			},
 			{
 				text: 'Twitter',

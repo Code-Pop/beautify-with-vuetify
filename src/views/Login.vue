@@ -21,7 +21,7 @@
 			<v-spacer></v-spacer>
 			<v-btn color="info">Đăng nhập</v-btn>
 			<v-spacer></v-spacer>
-			<v-btn color="info">Quên Tk or Mật khẩu</v-btn>
+			<v-btn color="info">Quên mật khẩu</v-btn>
 
 		</v-card-actions>
 	</v-card>
