@@ -40,7 +40,7 @@
 			</v-flex>
 
 			<v-flex xs12 mb-5>
-				<h2 class="headline font-weight-bold mb-3">Important Links</h2>
+				<h2 class="headline font-weight-bold mb-3">Mạng xã hội chính</h2>
 
 				<v-layout justify-center>
 					<a
@@ -56,7 +56,7 @@
 			</v-flex>
 
 			<v-flex xs12 mb-5>
-				<h2 class="headline font-weight-bold mb-3">Ecosystem</h2>
+				<h2 class="headline font-weight-bold mb-3">Liên lạc với chúng tôi</h2>
 
 				<v-layout justify-center>
 					<a
@@ -79,39 +79,33 @@ export default {
 	data: () => ({
 		ecosystem: [
 			{
-				text: 'vuetify-loader',
-				href: 'https://github.com/vuetifyjs/vuetify-loader'
+				text: 'Phone 0938 239 388',
+				href: ''
 			},
 			{
-				text: 'github',
+				text: 'Email: hotro@dautu101.com',
 				href: 'https://github.com/vuetifyjs/vuetify'
-			},
-			{
-				text: 'awesome-vuetify',
-				href: 'https://github.com/vuetifyjs/awesome-vuetify'
 			}
+			
 		],
 		importantLinks: [
 			{
-				text: 'Documentation',
-				href: 'https://vuetifyjs.com'
+				text: 'Telegram cho người mới',
+				href: 'https://dautu101.com'
 			},
 			{
-				text: 'Chat',
-				href: 'https://community.vuetifyjs.com'
+				text: 'Telegram cho Nhà đầu tư',
+				href: 'https://t.me/dautu101'
 			},
 			{
-				text: 'Made with Vuetify',
-				href: 'https://madewithvuejs.com/vuetify'
+				text: 'WhatsApp Business',
+				href: '+84938239388'
 			},
 			{
 				text: 'Twitter',
-				href: 'https://twitter.com/vuetifyjs'
-			},
-			{
-				text: 'Articles',
-				href: 'https://medium.com/vuetify'
+				href: 'https://twitter.com/'
 			}
+			
 		],
 		whatsNext: [
 			{
@@ -124,7 +118,7 @@ export default {
 			},
 			{
 				text: 'Các bài viết chia sẻ về kinh nghiệm đầu tư',
-				href: 'https://vuetifyjs.com/getting-started/frequently-asked-questions'
+				href: 'https://dautu101.com'
 			}
 		]
 	})
