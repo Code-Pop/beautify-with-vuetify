@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-app-bar app color="primary" dark>
-      <v-toolbar-title>Vuetify Dashboard</v-toolbar-title>
+      <v-toolbar-title>ĐẦU TƯ 101</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn
         v-for="link in links"
@@ -47,21 +47,26 @@ export default {
     return {
       links: [
         {
-          label: 'Home',
+          label: 'Trang chủ',
           url: '/'
         },
         {
-          label: 'Login',
+          label: 'Bảng giá',
+          url: '/dashboard'
+        },
+        {
+          label: 'Trung tâm phân tích',
+          url: '/dashboard'
+        },
+        {
+          label: 'Đăng nhập',
           url: '/login'
         },
         {
-          label: 'Signup',
+          label: 'Đăng ký',
           url: '/signup'
-        },
-        {
-          label: 'Phân tích cổ phiếu',
-          url: '/dashboard'
         }
+
       ]
     }
   },
