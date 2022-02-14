@@ -61,11 +61,8 @@ export default {
         {
           label: 'Đăng nhập',
           url: '/login'
-        },
-        {
-          label: 'Đăng ký',
-          url: '/signup'
         }
+        
 
       ]
     }

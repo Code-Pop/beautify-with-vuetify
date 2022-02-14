@@ -17,11 +17,9 @@
 		</v-card-text>
 		<v-divider></v-divider>
 		<v-card-actions>
-			<v-btn color="success">Đăng ký</v-btn>
-			<v-spacer></v-spacer>
 			<v-btn color="info">Đăng nhập</v-btn>
 			<v-spacer></v-spacer>
-			<v-btn color="info">Quên mật khẩu</v-btn>
+			
 
 		</v-card-actions>
 	</v-card>
