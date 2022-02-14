@@ -59,7 +59,7 @@ export default {
           url: '/signup'
         },
         {
-          label: 'Dashboard',
+          label: 'Phân tích cổ phiếu',
           url: '/dashboard'
         }
       ]
