@@ -1,18 +1,18 @@
 [
   {
-    "title": "Sales Today",
+    "title": "Định giá DCF",
     "sales": [423, 446, 675, 510, 590, 610, 760, 639],
     "color": "cyan",
     "labels": ["6AM", "8AM", "9AM", "10AM", "12PM", "2PM", "4PM", "6PM"]
   },
   {
-    "title": "Sales This Month",
+    "title": "Định giá R.V",
     "sales": [325, 123, 273, 573],
     "color": "teal",
     "labels": ["Week 1", "Week 2", "Week 3", "Week 4"]
   },
   {
-    "title": "Sales This Year",
+    "title": "Khuyến nghị",
     "sales": [746, 415, 943, 1372, 983, 651, 837, 639],
     "color": "green",
     "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug"]

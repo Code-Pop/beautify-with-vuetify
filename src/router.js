@@ -23,18 +23,18 @@ export default new Router({
         import(/* webpackChunkName: "about" */ './views/About.vue')
     },
     {
-      path: '/login',
-      name: 'login',
-      component: () => import('./views/Login.vue')
-    },
-    {
       path: '/dashboard',
-      name: 'dashboard',
+      name: 'Phân tích nhanh cổ phiếu',
       component: () => import('./views/Dashboard.vue')
     },
     {
+      path: '/login',
+      name: 'Đăng nhập',
+      component: () => import('./views/Login.vue')
+    },
+    {
       path: '/signup',
-      name: 'signup',
+      name: 'Đăng ký',
       component: () => import('./views/Signup.vue')
     }
   ]
