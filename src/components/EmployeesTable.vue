@@ -20,10 +20,10 @@ export default {
   },
   data: () => ({
     headers: [
-      { text: 'Employee ID', value: 'id' },
-      { text: 'Name', value: 'name' },
-      { text: 'Position Title', value: 'title' },
-      { text: 'Salary', value: 'salary' }
+      { text: 'Nhóm ngành', value: 'id' },
+      { text: 'Tên mã', value: 'name' },
+      { text: 'Tên công ty', value: 'title' },
+      { text: 'Mức giá', value: 'salary' }
     ]
   }),
   methods: {
