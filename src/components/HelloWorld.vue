@@ -12,19 +12,19 @@
 
 			<v-flex mb-4>
 				<h1 class="display-2 font-weight-bold mb-3">
-					Đầu Tư 101
+					DAU TU 101
 				</h1>
 				<p class="subheading font-weight-regular">
-					For help and collaboration with other Vuetify developers,
-					<br />please join our online
-					<a href="https://community.vuetifyjs.com" target="_blank"
-						>Discord Community</a
+					Kết nối và đồng hành,
+					<br />Cộng đồng Nhà đầu tư Telegram
+					<a href="https://t.me/dautu101" target="_blank"
+						>@dautu101</a
 					>
 				</p>
 			</v-flex>
 
 			<v-flex mb-5 xs12>
-				<h2 class="headline font-weight-bold mb-3">What's next?</h2>
+				<h2 class="headline font-weight-bold mb-3">Cách chúng tôi hỗ trợ bạn?</h2>
 
 				<v-layout justify-center>
 					<a
@@ -115,15 +115,15 @@ export default {
 		],
 		whatsNext: [
 			{
-				text: 'Explore components',
-				href: 'https://vuetifyjs.com/components/api-explorer'
+				text: 'Cơ cấu lại danh mục miễn phí',
+				href: 'https://dautu101.com'
 			},
 			{
-				text: 'Select a layout',
-				href: 'https://vuetifyjs.com/layout/pre-defined'
+				text: 'Tư vấn tạo danh mục tối ưu',
+				href: 'https://dautu101.com'
 			},
 			{
-				text: 'Frequently Asked Questions',
+				text: 'Các bài viết chia sẻ về kinh nghiệm đầu tư',
 				href: 'https://vuetifyjs.com/getting-started/frequently-asked-questions'
 			}
 		]
