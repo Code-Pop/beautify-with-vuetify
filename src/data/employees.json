@@ -1,32 +1,33 @@
 [
   {
-    "id": 12875,
+    "id": 8355,
     "name": "SHB",
     "title": "Ngân hàng TMCP Sài Gòn - Hà Nội ",
-    "salary": 65000
+    "salary": 21.900
+
   },
   {
-    "id": 14094,
+    "id": 1757,
     "name": "NKG",
     "title": "CTCP Thép Nam Kim ",
-    "salary": 40000
+    "salary": 31.300
   },
   {
-    "id": 12894,
+    "id": 1357,
     "name": "DCM",
     "title": "CTCP Phân bón Dầu khí Cà Mau ",
-    "salary": 68000
+    "salary": 26.900
   },
   {
-    "id": 13893,
+    "id": 1357,
     "name": "DPM",
     "title": "Tổng Công ty Phân bón và Hóa chất Dầu khí - CTCP ",
-    "salary": 54000
+    "salary": 41.300
   },
   {
-    "id": 12943,
+    "id": 1757,
     "name": "HPG",
     "title": "CTCP Tập đoàn Hòa Phát ",
-    "salary": 65000
+    "salary": 42.150
   }
 ]
