@@ -80,11 +80,11 @@ export default {
 		ecosystem: [
 			{
 				text: ' 0938 239 388',
-				href: '+84938239388'
+				
 			},
 			{
 				text: 'Email: hotro@dautu101.com',
-				href: 'hotro@dautu101.com'
+				
 			}
 			
 		],
