@@ -57,7 +57,7 @@
     </v-snackbar>
   </v-container>
 </template>
- <h1>Định giá thị trường hiện tại</h1>
+
 <script>
 import EmployeesTable from '../components/EmployeesTable'
 import EventTimeline from '../components/EventTimeline'
