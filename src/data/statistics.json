@@ -1,18 +1,23 @@
 [
   {
-    "title": "Employees",
+    "title": "Xếp hạng trong ngành",
     "value": "65"
   },
   {
-    "title": "Ream Sold",
-    "value": "983,000"
+    "title": "Các chỉ số tài chính cơ bản",
+    "value": "9"
   },
   {
-    "title": "Rating",
+    "title": "Rủi ro/Cơ hội đầu tư",
     "value": "4.5"
   },
   {
-    "title": "Revenue",
-    "value": "$2.3M"
+    "title": "Định giá theo DCF",
+    "value": "50.600đ/Cổ phiếu"
+  },
+  {
+    "title": "Định giá tương đối theo P/E, FCFF(FCFE),..",
+    "value": "52000đ/Cổ phiếu" 
   }
+  
 ]

@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <h1>Dashboard</h1>
+    <h1>Phân tích nhanh công ty</h1>
 
     <v-row>
       <v-col v-for="sale in sales" :key="`${sale.title}`" cols="12" md="4">
