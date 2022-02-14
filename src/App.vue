@@ -33,7 +33,7 @@
           {{ link.label }}
         </v-btn>
         <v-flex primary lighten-2 py-4 text-center white--text xs12>
-          {{ new Date().getFullYear() }} — <strong>Vuetify Dashboard</strong>
+          {{ new Date().getFullYear() }} — <strong>DAU TU 101 All Right Reserved.</strong>
         </v-flex>
       </v-layout>
     </v-footer>
