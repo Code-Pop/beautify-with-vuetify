@@ -110,15 +110,15 @@ export default {
 		whatsNext: [
 			{
 				text: 'Cơ cấu lại danh mục miễn phí',
-				href: 'https://dautu101.com'
+				href: 'https://t.me/dautu101'
 			},
 			{
 				text: 'Tư vấn tạo danh mục tối ưu',
-				href: 'https://dautu101.com'
+				href: 'https://t.me/dautu101'
 			},
 			{
-				text: 'Các bài viết chia sẻ về kinh nghiệm đầu tư',
-				href: 'https://dautu101.com'
+				text: 'Các chia sẻ về kinh nghiệm đầu tư',
+				href: 'https://t.me/dautu101'
 			}
 		]
 	})
