@@ -13,7 +13,7 @@
         {{ link.label }}
       </v-btn>
       <v-btn @click="toggleTheme" text rounded>
-        Toggle Theme
+        Chủ đề
       </v-btn>
     </v-app-bar>
     <v-content>
