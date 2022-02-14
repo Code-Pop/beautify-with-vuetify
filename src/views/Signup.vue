@@ -2,7 +2,7 @@
   <v-container>
     <v-row>
       <v-col>
-        <h1>Signup</h1>
+        <h1>Đăng ký</h1>
         <v-form ref="signUpForm" v-model="formValidity">
           <v-text-field
             label="Email"
@@ -12,10 +12,10 @@
             required
           ></v-text-field>
           <v-autocomplete
-            label="Which browser do you use?"
+            label="Bạn đã đầu tư bao lâu"
             :items="browsers"
           ></v-autocomplete>
-          <v-file-input label="Attach profile picture"></v-file-input>
+          <v-file-input label="Gửi ảnh danh mục hiện tại nếu muốn cơ cấu"></v-file-input>
           <v-text-field
             v-model="birthday"
             label="Birthday"
